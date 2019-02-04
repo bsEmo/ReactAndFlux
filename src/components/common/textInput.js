@@ -13,9 +13,9 @@ var TextInput = React.createClass({
     },
 
     render: function () {
-        var wrapperClass = 'form group';
+        var wrapperClass = 'form-group';
 
-        if (this.props.error && this.props.error) {
+        if (this.props.error) {
             wrapperClass += " has-error";
         }
 
